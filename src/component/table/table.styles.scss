@@ -1,0 +1,46 @@
+
+.table{
+    margin:10% 5% 5% 10%;
+    height: 422px;
+    width:50%;
+    color:#1d3557 ;
+}
+
+.flex{
+    display: inline-flex;
+}
+
+
+.button-table{
+    // margin:20% 10%;
+    padding: 0;
+    height: 360px;
+    width:480px;
+    display:flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius:5%;
+    
+    // flex-direction: column;
+    
+
+
+}
+
+.row-label{
+    height:360px;
+    width:120px;
+    padding:0px;
+  
+    
+}
+
+.column-label{
+    padding: 0px;
+    height: 20px;
+    width:480px;
+    // border:1px solid black;
+    margin-left:120px
+
+
+}

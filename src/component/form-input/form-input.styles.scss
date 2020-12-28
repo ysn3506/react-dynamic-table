@@ -1,0 +1,20 @@
+.group{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    outline: none;
+    
+}
+
+.x-y .group .form-input{
+    width: 3em;
+    height: 3em;
+    margin:5px;
+    border-radius: 5%;
+    font-size: 20px;
+  text-align: center;
+  padding: 1px;
+
+}
