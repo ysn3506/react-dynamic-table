@@ -53,7 +53,7 @@ class TableGamePage extends React.Component {
 
 
     changeState = event => {
-        if (parseInt(event.target.form[0].value) > 4 || parseInt(event.target.form[1].value) > 4 || event.target.form[0].value === '' || event.target.form[1].value === '') {
+        if (parseInt(event.target.form[0].value) > 4 || parseInt(event.target.form[1].value) >4 ||parseInt(event.target.form[0].value)<=0 || parseInt(event.target.form[1].value)<=0  ||  event.target.form[0].value === '' || event.target.form[1].value === '') {
             alert("Please enter compatible number with table size ")
         } else {
             event.preventDefault();
